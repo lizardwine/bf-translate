@@ -59,3 +59,4 @@ for i in word:
     script += ToBF(i,lastI)
     lastI = ord(i)
 f.write(script)
+f.close()
